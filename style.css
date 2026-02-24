@@ -1,55 +1,78 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: #f4f6f8;
-    color: #222;
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:#f7f9fc;
+    color:#222;
 }
 
-header {
-    background: #002b5c;
-    color: white;
-    padding: 20px;
+/* HEADER */
+header{
+    background:#001f3f;
+    color:white;
+    padding:25px;
 }
 
-nav a {
-    color: white;
-    margin-right: 20px;
-    text-decoration: none;
-    font-weight: bold;
+header h1{
+    margin:0;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav{
+    margin-top:10px;
 }
 
-.container {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
+nav a{
+    color:white;
+    margin-right:20px;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-h1, h2 {
-    color: #002b5c;
+nav a:hover{
+    color:#00c3ff;
 }
 
-footer {
-    background: #002b5c;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-.hero {
-    background: url("images/detector.jpg") center/cover no-repeat;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* HERO SECTION */
+.hero{
+    background:#003366;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
 }
 
-.hero-text {
-    background: rgba(0,0,0,0.6);
-    color: white;
-    padding: 30px;
-    text-align: center;
+.hero h2{
+    font-size:36px;
+}
+
+/* CONTENT */
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+h2{
+    color:#003366;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGES */
+img{
+    max-width:100%;
+    border-radius:6px;
+}
+
+/* FOOTER */
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
